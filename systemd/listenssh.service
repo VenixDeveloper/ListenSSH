@@ -3,7 +3,7 @@ Description=ListenSSH - Easily report all connection attempts on common vulnerab
 After=network.target
 
 [Service]
-WorkingDirectory=/root/Listenssh
+WorkingDirectory=/etc/ListenSSH
 ExecStart=/usr/bin/python3 main.py
 Restart=always
 RestartSec=10
